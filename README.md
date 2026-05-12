@@ -1,6 +1,6 @@
 # Random Squares in p5js
 <h2 style="color:grey;">Small experiment in p5js</h2><br>
-A small script for creating a simple structure. The outcome is controlled by a list of flags within the script:<br>
+A small script for creating a simple structure. Inspired by François Morellet’s “Du jaune au violet”. The outcome is controlled by a list of flags within the script:<br>
 <ul>
   <li>squaresCount&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp//numbers of squares drawn</li>
   <li>useRandomShift&nbsp//whether the verteces of each square are randomly shifted</li>
