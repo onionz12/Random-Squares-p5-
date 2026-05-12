@@ -10,8 +10,8 @@ A small script for creating a simple structure. The outcome is controlled by a l
 </ul>
 
 
-Try it out yourself on <a href=https://editor.p5js.org/onionzz/sketches/VDn0eqXon>p5js</a>
-Example results:
+Try it out yourself on <a href=https://editor.p5js.org/onionzz/sketches/VDn0eqXon>p5js</a><br><br>
+<h3>Example results:</h3>
 <p float = "left">
   <img width="30%" height="30%" alt="result4" src="https://github.com/user-attachments/assets/0bb7f3ee-0fb6-4e49-b993-a1d50265d73b" />
   <img width="30%" height="30%" alt="result28" src="https://github.com/user-attachments/assets/1cad596e-ced6-4347-a315-8aff38ff3758" />
