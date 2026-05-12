@@ -1,6 +1,6 @@
 # Random Squares in p5js
 <h2 style="color:grey;">Small experiment in p5js</h2><br>
-A small script for creating a simple structure. Inspired by François Morellet’s “Du jaune au violet”. The outcome is controlled by a list of flags within the script:<br>
+A small script for creating a simple structure. Inspired by <a href="https://www.wikiart.org/en/francois-morellet/from-yellow-to-violet-1956" target="_blank">François Morellet’s “Du jaune au violet”</a>. The outcome is controlled by a list of flags within the script:<br>
 <ul>
   <li>squaresCount&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp//numbers of squares drawn</li>
   <li>useRandomShift&nbsp//whether the verteces of each square are randomly shifted</li>
@@ -10,7 +10,7 @@ A small script for creating a simple structure. Inspired by François Morellet�
 </ul>
 
 
-Try it out yourself on <a href=https://editor.p5js.org/onionzz/sketches/VDn0eqXon>p5js</a><br><br>
+Try it out yourself on <a href="https://editor.p5js.org/onionzz/sketches/VDn0eqXon">p5js</a><br><br>
 <h3>Example results:</h3>
 <p float = "left">
   <img width="30%" height="30%" alt="result4" src="https://github.com/user-attachments/assets/0bb7f3ee-0fb6-4e49-b993-a1d50265d73b" />
