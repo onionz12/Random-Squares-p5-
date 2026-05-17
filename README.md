@@ -13,10 +13,10 @@ A small script for creating a simple structure. Inspired by <a href="https://www
 Try it out yourself on <a href="https://editor.p5js.org/onionzz/sketches/VDn0eqXon">p5js</a><br><br>
 <h3>Example results</h3>
 <p float = "left">
-  <img width="30%" height="30%" alt="result4" src="https://github.com/user-attachments/assets/0bb7f3ee-0fb6-4e49-b993-a1d50265d73b" />
-  <img width="30%" height="30%" alt="result28" src="https://github.com/user-attachments/assets/1cad596e-ced6-4347-a315-8aff38ff3758" />
-  <img width="30%" height="30%" alt="result29" src="https://github.com/user-attachments/assets/8bb609ee-2a08-4683-95f2-509cc31a3ccd" />
-  <img width="30%" height="30%" alt="result26" src="https://github.com/user-attachments/assets/3447d92f-ba2c-424a-af63-daa728e8df41" />
-  <img width="30%" height="30%" alt="result20" src="https://github.com/user-attachments/assets/1c2ea671-6782-409d-a824-36dc32f29c87" />
-  <img width="30%" height="30%" alt="result2" src="https://github.com/user-attachments/assets/6e21c55e-a64f-41bb-9e75-2e30836b8684" />
+  <img width="30%" height="30%" alt="random shift, random color, random weight and use gradient" src="https://github.com/user-attachments/assets/0bb7f3ee-0fb6-4e49-b993-a1d50265d73b" />
+  <img width="30%" height="30%" alt="use color and use gradient" src="https://github.com/user-attachments/assets/1cad596e-ced6-4347-a315-8aff38ff3758" />
+  <img width="30%" height="30%" alt="use color and use gradient with high squaresCount" src="https://github.com/user-attachments/assets/8bb609ee-2a08-4683-95f2-509cc31a3ccd" />
+  <img width="30%" height="30%" alt="no color" src="https://github.com/user-attachments/assets/3447d92f-ba2c-424a-af63-daa728e8df41" />
+  <img width="30%" height="30%" alt="color, gradient and random weight" src="https://github.com/user-attachments/assets/1c2ea671-6782-409d-a824-36dc32f29c87" />
+  <img width="30%" height="30%" alt="color, gradient and random weight" src="https://github.com/user-attachments/assets/b205021e-961a-4bc2-a3c6-821c96395c67" />
 </p>
