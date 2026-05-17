@@ -83,8 +83,6 @@ function draw() {
     let newColors = colors.map(([r,g,b]) => [r,r,r]);
     colors = newColors;
   }
-  stroke(colors[0]);
-  //console.log(colors);
   
   for(let i = 1; i <= squaresCount; i++) {
     let radius = totalDiameter / squaresCount / 2 * i;
