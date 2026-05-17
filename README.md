@@ -5,7 +5,7 @@ A small script for creating a simple structure. Inspired by <a href="https://www
   <li>squaresCount&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp//numbers of squares drawn</li>
   <li>useRandomShift&nbsp//whether the verteces of each square are randomly shifted</li>
   <li>useColor&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp//whether to use color (if turned of the image will be grey scale)</li>
-  <li>useRandWeight&nbsp&nbsp//whether the thickness of the squares should be random (else a default value of 0.5 is used)</li>
+  <li>useRandomWeight&nbsp&nbsp//whether the thickness of the squares should be random (else a default value of 0.5 is used)</li>
   <li>useGradient&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp//if enabled, a gradient is computed for the squares. If disabled, all squares have the same color </li>
 </ul>
 
