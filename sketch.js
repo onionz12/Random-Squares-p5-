@@ -9,13 +9,13 @@ let totalDiameter = CANVAS_MIN_MEASURE * 0.7;
 
 //CHANGE THESE VALUES HOW YOU WANT
 let squaresCount = 15;
-let useRandom = true;
+let useRandomShift = true;
 let useColor = true;
-let useRandWeight = true;
+let useRandomWeight = true;
 let useGradient = true;
 
 
-//map the corners to the actual size to get the correctcoordinates
+//map the corners to the actual size to get the correct coordinates
 const createQuad = (w, h) => 
   [
     [-1, -1],
@@ -36,7 +36,7 @@ const shiftAtRandom = (original) => original + random(...MIN_MAX_SHIFT) * (Math.
 const createSquare = (sidelength) => {
   let coordinates = createQuad(sidelength, sidelength);
   coordinates = coordinates.map(shiftToMiddle).flat();
-  if(useRandom)
+  if(useRandomShift)
      coordinates = coordinates.map(shiftAtRandom);
   return coordinates;
 }
@@ -55,13 +55,12 @@ const InterpolateArraysStepwise = (startVals, endVals, numSteps) => {
     throw new Error("cannot interpolate arrays of different lengths!");
   }
   const stepDistance =
-    startVals.every((v, i) => v === endVals[i]) ? startVals.map(() => 0) : startVals.map((val, i) => (endVals[i]- val) / (numSteps - 1));
+    startVals.map((val, i) => (endVals[i]- val) / (numSteps - 1));
   const computeStep = (startColor) => startColor.map((val, i) => val + stepDistance[i]);
   let colors = [startVals];
   for(let i = 0; i < numSteps - 1; i++) {
     colors.push(computeStep(colors[i]));
   }
-  colors.push(endVals);
   return colors;
 }
 
@@ -84,16 +83,17 @@ function draw() {
     let newColors = colors.map(([r,g,b]) => [r,r,r]);
     colors = newColors;
   }
+  stroke(colors[0]);
   //console.log(colors);
   
   for(let i = 1; i <= squaresCount; i++) {
     let radius = totalDiameter / squaresCount / 2 * i;
     let verteces = createSquare(radius);
     
-    if(useRandWeight)
+    if(useRandomWeight)
       strokeWeight(random(0.0, 20.0));
     if(useGradient)//stroke(...randomColorArray())
-      stroke(...(colors[i]));
+      stroke(...colors[i-1]);
     drawSquare(verteces);
   }
 }
